@@ -1,0 +1,11 @@
+{
+	"schemaVersion": 1,
+	"id": "tpahomes-test",
+	"version": "1.0.0",
+	"name": "TPA & Homes GameTests",
+	"environment": "*",
+	"entrypoints": {
+		"fabric-gametest": ["de.tpahomes.test.TpaHomesGameTest"]
+	},
+	"depends": { "tpahomes": "*" }
+}

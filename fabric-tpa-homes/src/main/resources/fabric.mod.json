@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+	"id": "tpahomes",
+	"version": "${version}",
+	"name": "TPA & Homes",
+	"description": "Server-only mod: /tpa with accept buttons and 5s warmup, /sethome, /home, /delhome, /homes.",
+	"authors": [],
+	"license": "MIT",
+	"environment": "server",
+	"entrypoints": {
+		"main": [
+			"de.tpahomes.TpaHomes"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
